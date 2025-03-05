@@ -40,6 +40,11 @@ def findNthPrime(n):
 
     return num
 
+def primeSummation(n):
+    """Sums the prime numbers"""
+
+    return num
+
 def isEven(n):
   """Returns boolean about given value being even."""
 
