@@ -41,9 +41,12 @@ def findNthPrime(n):
     return num
 
 def primeSummation(n):
-    """Sums the prime numbers"""
-
-    return num
+    """Returns the sum of all prime numbers less than n"""
+    total = 0
+    for num in range(2, n): 
+        if isPrime(num):
+            total += num
+    return total
 
 def isEven(n):
   """Returns boolean about given value being even."""
